@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37644949-48c0-4d23-a13d-1379849ce308" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/danceOffer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_01_GetMinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_02_TwoStacksImplementQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_03_ReverseStackUsingRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_04_DogCatQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_05_StackSortStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_06_HanoiStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_07_SlidingWindowMaxArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_08_MaxTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_09_MaximalRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_10_AllLessNumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_01_PrintCommonPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_02_RemoveLastKthNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_03_RemoveNodeByRatio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_04_ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_05_ReversePartList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_06_JosephusProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_07_IsPalindromeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_08_SmallerEqualBigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_09_CopyListWithRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_10_AddTwoLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_11_FindFirstIntersectNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_12_ConvertEveryKNodesInList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_13_RemoveRepetition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_14_RemoveGivenValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_15_BSTtoDoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_16_ListSelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_17_RemoveNodeWired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_18_InsertNumToCircularList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_19_MergeTwoLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_2_listproblem/Problem_20_RelocateLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_01_PreInPosTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_02_PrintEdgeNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_03_PrintBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_04_SerializeAndReconstructTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_05_MorrisTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_06_LongestPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_07_BiggestSubBSTInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_08_BiggestBSTTopologyInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_09_PrintBinaryTreeByLevelAndZigZag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_10_RecoverBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_11_T1ContainsT2Topology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_12_T1SubtreeEqualsT2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_13_IsBalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_14_PosArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_15_IsBSTAndCBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_16_SortedArrayToBalancedBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_17_DescendantNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_18_LowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_19_TarjanAndDisjointSetsForLCA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_20_MaxDistanceInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_21_PreInPosArrayToTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_22_PreAndInArrayToPosArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_23_UniqueBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_24_CompleteTreeNodeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_01_FibonacciProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_02_MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_03_CoinsMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_04_CoinsWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_05_LIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_06_HanoiProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_07_LCSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_08_LCSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_09_EditCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_10_StringCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_11_DungeonGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_12_NumberToLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_13_ExpressionNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_14_CardsInLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_15_JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_16_LongestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_17_NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_01_IsDeformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_02_AllNumbersSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_03_RemoveKZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_04_IsRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_05_ConvertStringToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_06_ReplaceString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_07_ConvertStringToCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_08_IsAllUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_09_FindStringInContainsNullArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_10_ModifyAndReplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_11_RotateString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_12_MinDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_13_PalindromeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_14_ParenthesesProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_15_ExpressionCompute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_16_ZeroLeftOneStringNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_17_LowestLexicography.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_18_LongestNoRepeatSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_19_FindNewTypeChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_20_MinWindowLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_21_PalindromeMinCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_22_RegularExpressionMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_23_TrieTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_7_bitoperation/Problem_01_SwapWithoutTmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_7_bitoperation/Problem_02_GetMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_7_bitoperation/Problem_03_AddMinusMultiDivideByBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_7_bitoperation/Problem_04_NumberOf1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_7_bitoperation/Problem_05_EvenTimesOddTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_7_bitoperation/Problem_06_KTimesOneTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_01_PrintMatrixSpiralOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_02_RotateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_03_ZigZagPrintMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_04_FindMinKNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_05_MinLengthForSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_06_FindKMajority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_07_FindNumInSortedMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_08_LongestIntegratedLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_09_PrintUniquePairAndTriad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_10_LongestSumSubArrayLengthInPositiveArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_11_LongestSumSubArrayLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_12_LongestLessSumSubArrayLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_13_SmallSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_14_SortNaturalNumberArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_15_EvenInEvenOddInOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_16_SubArrayMaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_17_SubMatrixMaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_18_FindOneLessValueIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_19_SubArrayMaxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_20_PrintMaxTopK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_21_MaxOneBorderSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_22_MultiplyExceptOwn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_23_PartitionArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_24_MinPathValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_25_SmallestMissNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_26_MaxGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_01_Rand5ToRand7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_02_GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_03_FactorialProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_04_PointInRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_05_PointInTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_06_PaperFolding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_07_ReservoirSampling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_08_SetAllHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_09_MaxABSBetweenLeftAndRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_10_LeastRecentlyUsedCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_11_RandomPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_12_ProbabilityXPowerK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_13_PathsToNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_14_SmallestUnFormedSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_15_NumberAndString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_16_OneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_17_PrintRandomM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_18_PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_19_SortedRatateArrayFindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_20_SortedRatateArrayFindNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_21_ChineseExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_21_EnglishExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_22_CandyProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_23_ReceiveAndPrintOrderLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_24_HeapWithoutDilatation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_24_HeapWithoutDilatationForTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_25_MadianQuick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_26_FindUpMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_27_FindKthMinNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_28_TopKSumCrossTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_29_TopKTimes1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_29_TopKTimes2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_30_ManacherAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_31_KMPAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_32_ThrowChessPiecesProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_33_ArtistProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_34_PostOfficeProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_01/Code_01_GetMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_01/Code_02_HanoiProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_01/Code_03_LongestPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_01/Code_05_IsBalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_01/Code_06_T1ContainsT2Topology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_01/Code_07_ExpressionCompute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_01/Code_08_MaxDistanceInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_02/Code_01_LeastRecentlyUsedCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_02/Code_02_Building_Outline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_02/Code_03_FindNewTypeChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_02/Code_04_TrieTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_02/Code_05_EnglishExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_02/Code_06_ChineseExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_02/Code_07_ThrowChessPiecesProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_03/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_03/AbstractBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_03/AbstractSelfBalancingBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_03/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_03/Code_01_MorrisTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_03/Code_02_SkipList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_03/RedBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_04/Code_01_Building_Outline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_04/Code_02_LRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_04/Code_03_LFU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_04/Code_04_BiggestSubBSTInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_04/Code_05_LongestSumSubArrayLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_04/Code_06_Most_EOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_04/Code_07_ExpressionCompute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_05/Code_01_IsBSTAndCBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_05/Code_02_IsBalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_05/Code_03_MaxDistanceInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_05/Code_04_MaxHappy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_05/Code_05_Max_EOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_05/Code_06_CompleteTreeNodeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_06/Code_01_CoinsWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_06/Code_02_CardsInLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_06/Code_03_RegularExpressionMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_06/Code_04_LongestSumSubArrayLengthInPositiveArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_06/Code_05_LongestSubarrayLessSumAwesomeSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_06/Code_06_JosephusProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_07/Code_01_MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_07/Code_02_LIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_07/Code_03_LCSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_07/Code_04_LCSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_07/Code_05_EditCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_07/Code_06_PalindromeMinCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_07/Code_07_StringCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_07/Code_08_ParenthesesProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_08/Code_01_TopKSumCrossTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_08/Code_02_MaxSubMatrixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_08/Code_03_MaxOneBorderSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_08/Code_04_FibonacciProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_08/Code_05_LongestNoRepeatSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/advance/advanced_class_08/Code_06_ShuffleProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_00_BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_01_InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_02_SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_03_HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_04_QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_05_MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_06_BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_07_RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_08_NetherlandsFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_09_Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_10_GetAllNotIncluded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_11_MaxGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_12_SmallSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_02/Code_01_KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_02/Code_02_KMP_ShortestHaveTwice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_02/Code_03_KMP_T1SubtreeEqualsT2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_02/Code_04_Manacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_02/Code_05_Manacher_ShortestEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_02/Code_06_BFPRT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_01_Array_To_Stack_Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_02_GetMinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_03_StackAndQueueConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_04_DogCatQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_05_RotateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_06_PrintMatrixSpiralOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_07_ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_08_ZigZagPrintMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_09_FindNumInSortedMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_10_PrintCommonPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_11_IsPalindromeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_12_SmallerEqualBigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_13_CopyListWithRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_14_FindFirstIntersectNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_03/Code_15_FindOneLessValueIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_04/Code_01_PreInPosTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_04/Code_02_PrintBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_04/Code_03_SuccessorNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_04/Code_04_SerializeAndReconstructTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_04/Code_05_PaperFolding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_04/Code_06_IsBalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_04/Code_07_IsBSTAndCBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_04/Code_08_CompleteTreeNodeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_05/Code_01_HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_05/Code_02_RandomPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_05/Code_03_Islands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_05/Code_04_UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_06/Code_01_BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_06/Code_02_DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_06/Code_03_TopologySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_06/Code_04_Kruskal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_06/Code_05_Prim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_06/Code_06_Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_06/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_06/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_06/GraphGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_06/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_07/Code_01_TrieTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_07/Code_02_Less_Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_07/Code_03_IPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_07/Code_04_MadianQuick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_07/Code_05_LowestLexicography.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_07/Code_06_BestArrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/Code_01_Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/Code_02_Hanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/Code_03_Print_All_Subsquences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/Code_04_Print_All_Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/Code_05_Cow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/Code_06_ReverseStackUsingRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/Code_07_MinPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/Code_08_Money_Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/Code_09_Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/FaceBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_08/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Code_02_DFS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_06/Code_02_DFS.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Code_14_FindFirstIntersectNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_03/Code_14_FindFirstIntersectNode.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Code_05_Manacher_ShortestEnd.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_02/Code_05_Manacher_ShortestEnd.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Code_06_IsBalancedTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_04/Code_06_IsBalancedTree.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Code_04_MaxHappy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/advance/advanced_class_05/Code_04_MaxHappy.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Code_06_ReverseStackUsingRecursive.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_08/Code_06_ReverseStackUsingRecursive.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Code_01_BFS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_06/Code_01_BFS.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Code_01_InsertionSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_01_InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Code_01_KMP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_02/Code_01_KMP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/nowcoder/class_02/Code_01_KMP.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/base/class_02/Code_01_KMP.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-254" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37644949-48c0-4d23-a13d-1379849ce308" name="Default" comment="" />
+      <created>1597665374304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597665374304</updated>
+      <workItem from="1597665377144" duration="456000" />
+      <workItem from="1597668038806" duration="944000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1400000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-254" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32935324" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2550586" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_11_T1ContainsT2Topology.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_05_LIS.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_4_recursionanddp/Problem_03_CoinsMin.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_3_binarytreeproblem/Problem_15_IsBSTAndCBT.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_28_TopKSumCrossTwoArrays.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_5_stringproblem/Problem_10_ModifyAndReplace.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_08_SetAllHashMap.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_04_PointInRectangle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_27_FindKthMinNumber.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_7_bitoperation/Problem_03_AddMinusMultiDivideByBit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/advance/advanced_class_02/Code_07_ThrowChessPiecesProblem.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_06/Code_02_DFS.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_03/Code_14_FindFirstIntersectNode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_02/Code_05_Manacher_ShortestEnd.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_04/Code_06_IsBalancedTree.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/advance/advanced_class_05/Code_04_MaxHappy.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_08/Code_06_ReverseStackUsingRecursive.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_06/Code_01_BFS.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_01_InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_02/Code_01_KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>danceOffer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
