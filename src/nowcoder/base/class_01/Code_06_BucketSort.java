@@ -2,6 +2,10 @@ package nowcoder.base.class_01;
 
 import java.util.Arrays;
 
+
+/**
+ * 桶排序，利用样本量小的特点，构造max大小数组，比较巧妙的快速排序了，可以做到On
+ * */
 public class Code_06_BucketSort {
 
 	// only for 0~200 value

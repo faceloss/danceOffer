@@ -2,6 +2,10 @@ package nowcoder.base.class_01;
 
 import java.util.Arrays;
 
+/**
+ * 选择排序的基本思想：比较 + 交换。
+ * 在未排序序列中找到最小（大）元素，存放到未排序序列的起始位置。在所有的完全依靠交换去移动元素的排序方法中，选择排序属于非常好的一种。
+* */
 public class Code_02_SelectionSort {
 
 	public static void selectionSort(int[] arr) {
@@ -9,6 +13,7 @@ public class Code_02_SelectionSort {
 			return;
 		}
 		for (int i = 0; i < arr.length - 1; i++) {
+			// 找到最小的位置与首位置i交换，并且初始化位置就是i
 			int minIndex = i;
 			for (int j = i + 1; j < arr.length; j++) {
 				minIndex = arr[j] < arr[minIndex] ? j : minIndex;

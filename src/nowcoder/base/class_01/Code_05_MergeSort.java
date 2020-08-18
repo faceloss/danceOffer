@@ -2,6 +2,10 @@ package nowcoder.base.class_01;
 
 import java.util.Arrays;
 
+/**
+ *  归并排序，使用n的空间来加快速度
+ *  为了让整体有序，先将局部有序，然后使用新数组将两个有序数组合并
+* */
 public class Code_05_MergeSort {
 
 	public static void mergeSort(int[] arr) {
@@ -23,9 +27,9 @@ public class Code_05_MergeSort {
 
 	public static void merge(int[] arr, int l, int m, int r) {
 		int[] help = new int[r - l + 1];
-		int i = 0;
-		int p1 = l;
-		int p2 = m + 1;
+		int i = 0;//help的
+		int p1 = l;//l的
+		int p2 = m + 1;//r的
 		while (p1 <= m && p2 <= r) {
 			help[i++] = arr[p1] < arr[p2] ? arr[p1++] : arr[p2++];
 		}

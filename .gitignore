@@ -11,3 +11,4 @@
 workspace
 .project
 .classpath
+res/out/

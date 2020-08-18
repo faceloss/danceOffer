@@ -2,6 +2,14 @@ package nowcoder.base.class_01;
 
 import java.util.Arrays;
 
+/**
+*  基数排序，结合数字位和桶的使用
+ *
+ *  将所有待比较数值（正整数）统一为同样的数位长度，数位较短的数前面补零。然后，从最低位开始，依次进行一次排序。这样从最低位排序一直到最高位排序完成以后，数列就变成一个有序序列。
+ *  MSD（Most significant digital） 从最左侧高位开始进行排序。先按k1排序分组, 同一组中记录, 关键码k1相等, 再对各组按k2排序分成子组, 之后, 对后面的关键码继续这样的排序分组, 直到按最次位关键码kd对各子组排序后. 再将各组连接起来, 便得到一个有序序列。MSD方式适用于位数多的序列。
+ *
+ *  LSD （Least significant digital）从最右侧低位开始进行排序。先从kd开始排序，再对kd-1进行排序，依次重复，直到对k1排序后便得到一个有序序列。LSD方式适用于位数少的序列。
+ *  */
 public class Code_07_RadixSort {
 
 	// only for no-negative value
@@ -12,6 +20,7 @@ public class Code_07_RadixSort {
 		radixSort(arr, 0, arr.length - 1, maxbits(arr));
 	}
 
+	//有几位基数 100有三 1000有四
 	public static int maxbits(int[] arr) {
 		int max = Integer.MIN_VALUE;
 		for (int i = 0; i < arr.length; i++) {
@@ -38,6 +47,7 @@ public class Code_07_RadixSort {
 				j = getDigit(arr[i], d);
 				count[j]++;
 			}
+			// 这里这么➕的目的是为了使count有序，一共就end-begin+1个数值
 			for (i = 1; i < radix; i++) {
 				count[i] = count[i] + count[i - 1];
 			}
@@ -114,6 +124,8 @@ public class Code_07_RadixSort {
 
 	// for test
 	public static void main(String[] args) {
+		int[] arr11={51,23,12,41,4,5,11,22,44};
+		radixSort(arr11);
 		int testTime = 500000;
 		int maxSize = 100;
 		int maxValue = 100000;

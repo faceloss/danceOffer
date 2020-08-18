@@ -2,6 +2,11 @@ package nowcoder.base.class_01;
 
 import java.util.Arrays;
 
+/**
+* 利用堆的数据结构特性做排序
+ * 1、将一个数组堆化（刚开始堆就一个值，然后往里面加值就需要更新与父节点比较）
+ * 2、交换一次元素到最后（新元素需要下沉维护堆数据结构），就堆化一次（堆化的复杂度只有logn,操作n次就整体有序了）
+* */
 public class Code_03_HeapSort {
 
 	public static void heapSort(int[] arr) {
@@ -18,8 +23,14 @@ public class Code_03_HeapSort {
 			swap(arr, 0, --size);
 		}
 	}
+	// 7654321 （将数组添加变化成一个大根堆），然后交换0和size位置，重新构造size-1大小的大根堆。。。。
 
+	//         0
+	//    1          2
+	//  3    4    5     6
+	// 7 8  9 10	...
 	public static void heapInsert(int[] arr, int index) {
+		// 0 1 2 3 4 5 6 与父节点进行比较，如果比父亲大就交换，并且继续交换下去到顶
 		while (arr[index] > arr[(index - 1) / 2]) {
 			swap(arr, index, (index - 1) / 2);
 			index = (index - 1) / 2;
@@ -29,6 +40,7 @@ public class Code_03_HeapSort {
 	public static void heapify(int[] arr, int index, int size) {
 		int left = index * 2 + 1;
 		while (left < size) {
+			//如果存在右节点，并且右节点更大，需要将largest与堆顶置换的新元素做比较（也就是让新元素往下下沉，沉到该在的位置）
 			int largest = left + 1 < size && arr[left + 1] > arr[left] ? left + 1 : left;
 			largest = arr[largest] > arr[index] ? largest : index;
 			if (largest == index) {
@@ -104,6 +116,7 @@ public class Code_03_HeapSort {
 
 	// for test
 	public static void main(String[] args) {
+		System.out.println(-1/2);
 		int testTime = 500000;
 		int maxSize = 100;
 		int maxValue = 100;
