@@ -1,4 +1,13 @@
-.idea/*
-*.log
-*.temp
-/vendor
+/.project
+/.classpath
+/.settings/
+/target/
+.DS_Store
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+.idea
+workspace
+.project
+.classpath
