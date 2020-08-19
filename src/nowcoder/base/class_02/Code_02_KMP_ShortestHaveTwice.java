@@ -1,5 +1,11 @@
 package nowcoder.base.class_02;
 
+/**
+ * 	给定一个字符串str1， 只能往str1的后面添加字符变成str2。
+ * 	要求1： str2必须包含两个str1， 两个str1可以有重合， 但是不能以同一个位置开头。
+ * 	要求2： str2尽量短
+ * 	最终返回str2
+* */
 public class Code_02_KMP_ShortestHaveTwice {
 
 	public static String answer(String str) {
@@ -15,9 +21,11 @@ public class Code_02_KMP_ShortestHaveTwice {
 		}
 		int endNext = endNextLength(chas);
 		return str + str.substring(endNext);
+		// 例如abcab就可以加一个cab就可以了 也就是算next数组（前后缀）
 	}
 
 	public static int endNextLength(char[] chas) {
+		//这里长度+1 是为了获取整个字符串的前后缀
 		int[] next = new int[chas.length + 1];
 		next[0] = -1;
 		next[1] = 0;
@@ -36,7 +44,7 @@ public class Code_02_KMP_ShortestHaveTwice {
 	}
 
 	public static void main(String[] args) {
-		String test1 = "a";
+		String test1 = "abcab";
 		System.out.println(answer(test1));
 
 		String test2 = "aa";

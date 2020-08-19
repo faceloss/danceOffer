@@ -1,5 +1,8 @@
 package nowcoder.base.class_01;
 
+/**
+* 最小和值，例如数组 2 1 3 4，那么最小和值等于= 2 + 1）+（2 + 1 + 3）= 9，也可以变种。。。成（最小和差值），利用归并排序，整体来自局部使n2 =》logn * n
+* */
 public class Code_12_SmallSum {
 
 	public static int smallSum(int[] arr) {
@@ -14,17 +17,20 @@ public class Code_12_SmallSum {
 			return 0;
 		}
 		int mid = l + ((r - l) >> 1);
+		//左边最小和值和右边以及两边对比
 		return mergeSort(arr, l, mid) + mergeSort(arr, mid + 1, r) + merge(arr, l, mid, r);
 	}
 
 	public static int merge(int[] arr, int l, int m, int r) {
 		int[] help = new int[r - l + 1];
 		int i = 0;
+
 		int p1 = l;
 		int p2 = m + 1;
 		int res = 0;
+
 		while (p1 <= m && p2 <= r) {
-			res += arr[p1] < arr[p2] ? (r - p2 + 1) * arr[p1] : 0;
+			res += arr[p1] < arr[p2] ? (r - p2 + 1) * arr[p1] : 0;// 排序的同时收集需要的数据
 			help[i++] = arr[p1] < arr[p2] ? arr[p1++] : arr[p2++];
 		}
 		while (p1 <= m) {

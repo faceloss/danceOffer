@@ -1,5 +1,8 @@
 package nowcoder.base.class_02;
 
+/**
+ * 给你一个整型数组，返回其中第K小的数
+ * */
 public class Code_06_BFPRT {
 
 	// O(N*logK)

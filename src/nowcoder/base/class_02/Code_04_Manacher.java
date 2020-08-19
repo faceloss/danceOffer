@@ -1,7 +1,12 @@
 package nowcoder.base.class_02;
 
+/**
+ * Manacher算法是一个用来查找一个字符串中的最长回文子串(不是最长回文序列)的线性算法。它的优点就是把时间复杂度为O(𝑛2)的暴力算法优化到了O(n)
+ * */
 public class Code_04_Manacher {
 
+	//暴力解如何适应偶数回文串呢？
+	//预处理 偶数位置放数字 奇数位放字符
 	public static char[] manacherString(String str) {
 		char[] charArr = str.toCharArray();
 		char[] res = new char[str.length() * 2 + 1];

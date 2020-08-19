@@ -1,5 +1,8 @@
 package nowcoder.base.class_02;
 
+/**
+* 判断一个树是不是另一个树的子树
+* */
 public class Code_03_KMP_T1SubtreeEqualsT2 {
 
 	public static class Node {
