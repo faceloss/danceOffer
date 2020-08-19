@@ -3,6 +3,9 @@ package nowcoder.base.class_01;
 import java.util.Arrays;
 import java.util.Comparator;
 
+/**
+ * 比较器的使用,通过Comparator<T>、Arrays.sort()实现类之间指定的比较
+ * */
 public class Code_09_Comparator {
 
 	public static class Student {

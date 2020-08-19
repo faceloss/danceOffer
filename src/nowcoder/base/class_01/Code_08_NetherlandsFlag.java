@@ -1,19 +1,24 @@
 package nowcoder.base.class_01;
 
+/**荷兰国旗问题，快排序的partition，有一个基准值p和一个数组arr,将比p小的放左边，大的放右边
+*
+* */
 public class Code_08_NetherlandsFlag {
 
 	public static int[] partition(int[] arr, int l, int r, int p) {
-		int less = l - 1;
-		int more = r + 1;
+		int less = l - 1;//指向最右的小值
+		int more = r + 1;//指向最左的大值
+		// l是移动坐标
 		while (l < more) {
 			if (arr[l] < p) {
 				swap(arr, ++less, l++);
 			} else if (arr[l] > p) {
-				swap(arr, --more, l);
+				swap(arr, --more, l); //1234444444556
 			} else {
 				l++;
 			}
 		}
+		// 返回的是p值最左和p值最右坐标
 		return new int[] { less + 1, more - 1 };
 	}
 

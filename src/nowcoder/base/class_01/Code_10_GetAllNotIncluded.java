@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+* 找出不在数组A的数组B元素，其中A是有序数组。。暴力就是n2 二分查找就是nlogn
+* */
 public class Code_10_GetAllNotIncluded {
 
 	public static List<Integer> GetAllNotIncluded(int[] A, int[] B) {
@@ -13,6 +16,7 @@ public class Code_10_GetAllNotIncluded {
 			int l = 0;
 			int r = A.length - 1;
 			boolean contains = false;
+			// 二分查找 logn
 			while (l <= r) {
 				int mid = l + ((r - l) >> 1);
 				if (A[mid] == B[i]) {
@@ -32,7 +36,7 @@ public class Code_10_GetAllNotIncluded {
 		return res;
 	}
 
-	// for test
+	 // for test  A中是否包含B中元素，找出B中不在A中的元素
 	public static List<Integer> comparator(int[] A, int[] B) {
 		List<Integer> res = new ArrayList<>();
 		for (int i = 0; i < B.length; i++) {

@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37644949-48c0-4d23-a13d-1379849ce308" name="Default" comment="剑指offer代码&#10;剑指offer">
-      <change afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_13_ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="37644949-48c0-4d23-a13d-1379849ce308" name="Default" comment="排序联系">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/md/aim2offer.md" beforeDir="false" afterPath="$PROJECT_DIR$/res/md/aim2offer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_00_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_00_BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_01_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_01_InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_02_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_02_SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_03_HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_03_HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_04_QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_04_QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_05_MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_05_MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_06_BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_06_BucketSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_07_RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_07_RadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_08_NetherlandsFlag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_08_NetherlandsFlag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_09_Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_09_Comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_10_GetAllNotIncluded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_10_GetAllNotIncluded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_11_MaxGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_11_MaxGap.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,24 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Code_01_InsertionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_01_InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2379">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Code_05_MergeSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_05_MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Code_06_BucketSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_06_BucketSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,30 +30,17 @@
       <file leaf-file-name="Code_07_RadixSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_07_RadixSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="393">
               <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-              <folding>
-                <element signature="e#1204#1205#0" expanded="true" />
-                <element signature="e#1258#1259#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <file leaf-file-name="Code_08_NetherlandsFlag.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_08_NetherlandsFlag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="500">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -86,39 +48,60 @@
       <file leaf-file-name="Code_04_QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_04_QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+            <state relative-caret-position="219">
+              <caret line="108" column="32" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1356#1365#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code_13_ShellSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_13_ShellSort.java">
+      <file leaf-file-name="Code_09_Comparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_09_Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1375">
-              <caret line="55" column="31" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="31" />
+            <state relative-caret-position="125">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code_03_HeapSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_03_HeapSort.java">
+      <file leaf-file-name="Code_10_GetAllNotIncluded.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_10_GetAllNotIncluded.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="-111">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Code_02_SelectionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_02_SelectionSort.java">
+      <file leaf-file-name="Code_11_MaxGap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_11_MaxGap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="321">
+              <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+              <folding>
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Code_08_MaxDistanceInTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/advance/advanced_class_01/Code_08_MaxDistanceInTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Code_12_SmallSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_12_SmallSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -149,11 +132,15 @@
         <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_02_SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_00_BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_03_HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_04_QuickSort.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_05_MergeSort.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_06_BucketSort.java" />
         <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_07_RadixSort.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_09_Comparator.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_08_NetherlandsFlag.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_04_QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_10_GetAllNotIncluded.java" />
+        <option value="$PROJECT_DIR$/src/nowcoder/base/class_01/Code_11_MaxGap.java" />
       </list>
     </option>
   </component>
@@ -199,7 +186,49 @@
               <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chengyun_zuo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chengyun_zuo" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_1_stackandqueue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chengyun_zuo" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_2_listproblem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chengyun_zuo" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_3_binarytreeproblem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="advance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="advance" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced_class_01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
@@ -215,6 +244,22 @@
               <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="class_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="class_02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="class_03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,17 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code_07_RadixSort">
-    <configuration name="Code_01_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.base.class_01.Code_01_InsertionSort" />
-      <module name="danceOffer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Code_03_HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.base.class_01.Code_03_HeapSort" />
-      <module name="danceOffer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.Code_10_GetAllNotIncluded">
     <configuration name="Code_04_QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nowcoder.base.class_01.Code_04_QuickSort" />
       <module name="danceOffer" />
@@ -279,8 +314,18 @@
       <module name="danceOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Code_13_ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcoder.base.class_01.Code_13_ShellSort" />
+    <configuration name="Code_08_NetherlandsFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.base.class_01.Code_08_NetherlandsFlag" />
+      <module name="danceOffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Code_09_Comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.base.class_01.Code_09_Comparator" />
+      <module name="danceOffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Code_10_GetAllNotIncluded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowcoder.base.class_01.Code_10_GetAllNotIncluded" />
       <module name="danceOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -308,19 +353,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
-      <item itemvalue="Application.Code_01_InsertionSort" />
-      <item itemvalue="Application.Code_13_ShellSort" />
-      <item itemvalue="Application.Code_03_HeapSort" />
       <item itemvalue="Application.Code_04_QuickSort" />
       <item itemvalue="Application.Code_07_RadixSort" />
+      <item itemvalue="Application.Code_08_NetherlandsFlag" />
+      <item itemvalue="Application.Code_09_Comparator" />
+      <item itemvalue="Application.Code_10_GetAllNotIncluded" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code_10_GetAllNotIncluded" />
+        <item itemvalue="Application.Code_08_NetherlandsFlag" />
+        <item itemvalue="Application.Code_09_Comparator" />
         <item itemvalue="Application.Code_07_RadixSort" />
         <item itemvalue="Application.Code_04_QuickSort" />
-        <item itemvalue="Application.Code_03_HeapSort" />
-        <item itemvalue="Application.Code_13_ShellSort" />
-        <item itemvalue="Application.Code_01_InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +381,8 @@
       <updated>1597665374304</updated>
       <workItem from="1597665377144" duration="456000" />
       <workItem from="1597668038806" duration="944000" />
-      <workItem from="1597719771131" duration="23708000" />
+      <workItem from="1597719771131" duration="24105000" />
+      <workItem from="1597800570348" duration="7223000" />
     </task>
     <task id="LOCAL-00001" summary="提交ignore">
       <created>1597719198876</created>
@@ -359,15 +405,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597720696460</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="排序联系">
+      <created>1597755486974</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597755486974</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25864000" />
+    <option name="totallyTimeSpent" value="33484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-254" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32935324" />
@@ -375,15 +427,15 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32935324" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40199006" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15124378" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.185836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18743344" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27761194" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,7 +454,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交ignore" />
     <MESSAGE value="剑指offer代码&#10;剑指offer" />
-    <option name="LAST_COMMIT_MESSAGE" value="剑指offer代码&#10;剑指offer" />
+    <MESSAGE value="排序联系" />
+    <option name="LAST_COMMIT_MESSAGE" value="排序联系" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -431,17 +484,17 @@
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_08_NetherlandsFlag.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_06/Code_02_DFS.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_03/Code_14_FindFirstIntersectNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_02/Code_05_Manacher_ShortestEnd.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -590,41 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_08_NetherlandsFlag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_09_Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_10_GetAllNotIncluded.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_11_MaxGap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_12_SmallSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_00_BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -653,17 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_04_QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1356#1365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_05_MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -673,8 +680,32 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="825">
           <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_01_InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_04_QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="108" column="32" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -685,28 +716,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_01_InsertionSort.java">
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_09_Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2379">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="48" />
+        <state relative-caret-position="125">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_08_NetherlandsFlag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_07_RadixSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="393">
           <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-          <folding>
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_10_GetAllNotIncluded.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-111">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_12_SmallSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_8_arrayandmatrix/Problem_26_MaxGap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-241">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/advance/advanced_class_01/Code_08_MaxDistanceInTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_01/Code_11_MaxGap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

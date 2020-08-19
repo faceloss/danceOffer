@@ -2,6 +2,11 @@ package nowcoder.base.class_01;
 
 import java.util.Arrays;
 
+/**
+ * 给定一个数组，求如果排序之后，相邻两数的最大差值，要求时 间复杂度O(N)，且要求不能用非基于比较的排序。
+ * 例：arr=[9,3,1,10],排序后1 3 9 10 ，最大距离是9-3=6
+ * 利用桶排序的思维，在每个桶里面维护一个最大值和最小值
+ * */
 public class Code_11_MaxGap {
 
 	public static int maxGap(int[] nums) {
@@ -18,16 +23,18 @@ public class Code_11_MaxGap {
 		if (min == max) {
 			return 0;
 		}
-		boolean[] hasNum = new boolean[len + 1];
-		int[] maxs = new int[len + 1];
-		int[] mins = new int[len + 1];
+		// 收集大小桶 has确定有值、mins、maxs
+		boolean[] hasNum = new boolean[len + 1];//桶里是否有值
+		int[] maxs = new int[len + 1];// 最大值
+		int[] mins = new int[len + 1];//最小值
 		int bid = 0;
 		for (int i = 0; i < len; i++) {
-			bid = bucket(nums[i], len, min, max);
+			bid = bucket(nums[i], len, min, max);//对应桶位置
 			mins[bid] = hasNum[bid] ? Math.min(mins[bid], nums[i]) : nums[i];
 			maxs[bid] = hasNum[bid] ? Math.max(maxs[bid], nums[i]) : nums[i];
 			hasNum[bid] = true;
 		}
+		// 从大小桶数据中找最大gap
 		int res = 0;
 		int lastMax = maxs[0];
 		int i = 1;
@@ -58,6 +65,13 @@ public class Code_11_MaxGap {
 	}
 
 	// for test
+
+	//uber project
+	/**
+	 * 1、18 2～5 uber-springboot项目 & selenium自动化测试web page opc
+	 * 2、18 6～8 network control interface northinterface(界面调用) and sourthinterface(控制网络)  & awt and swing开发ui界面 sdn
+	 * 3、19.5~20.11 community & reviewplatform & manage-platform & developplatform
+	 * */
 	public static int[] generateRandomArray(int maxSize, int maxValue) {
 		int[] arr = new int[(int) ((maxSize + 1) * Math.random())];
 		for (int i = 0; i < arr.length; i++) {

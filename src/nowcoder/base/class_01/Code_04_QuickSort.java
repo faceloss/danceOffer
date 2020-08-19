@@ -133,6 +133,7 @@ public class Code_04_QuickSort {
 				l++;
 			}
 		}
+		//最后一个换，r位置是等于arr[r]，more位置是大于arr[r]，需要换，换完后more位置上是基准值p
 		swap(arr, more, r);
 		return new int[] { less + 1, more };
 	}
