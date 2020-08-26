@@ -12,3 +12,4 @@ workspace
 .project
 .classpath
 res/out/
+!/.idea/workspace.xml
