@@ -2,6 +2,12 @@ package nowcoder.base.class_02;
 
 /**
  * 给你一个整型数组，返回其中第K小的数
+ * 在一大堆数中求出其前k大或前k小的所有数，简称TOP-K问题。
+ * 1
+ * 目前解决TOP-K问题最有效的算法即是BFPRT算法，又称为中位数的中位数算法，
+ * 该算法由Blum、Floyd、Pratt、Rivest、Tarjan提出，最坏时间复杂度为O(n)。
+ * 2
+ * 堆排序也是一个比较好的选择，可以维护一个大小为k的堆，时间复杂度为O(nlogk)
  * */
 public class Code_06_BFPRT {
 
@@ -66,11 +72,13 @@ public class Code_06_BFPRT {
 		int minKth = getMinKthByBFPRT(arr, k);
 		int[] res = new int[k];
 		int index = 0;
+		// 找到比mitKth小的值
 		for (int i = 0; i != arr.length; i++) {
 			if (arr[i] < minKth) {
 				res[index++] = arr[i];
 			}
 		}
+		// 没凑齐k个，则用mitKth填充
 		for (; index != res.length; index++) {
 			res[index] = minKth;
 		}
@@ -90,12 +98,15 @@ public class Code_06_BFPRT {
 		return res;
 	}
 
+	/**
+	 * 获取arr第i位置的值
+	 * */
 	public static int select(int[] arr, int begin, int end, int i) {
 		if (begin == end) {
 			return arr[begin];
 		}
-		int pivot = medianOfMedians(arr, begin, end);
-		int[] pivotRange = partition(arr, begin, end, pivot);
+		int pivot = medianOfMedians(arr, begin, end);//该中位数的中位数保证了至少30%的数据在其一侧，由此保证了pivot的有效性
+		int[] pivotRange = partition(arr, begin, end, pivot);//返回piovt的最左、最右位置的index
 		if (i >= pivotRange[0] && i <= pivotRange[1]) {
 			return arr[i];
 		} else if (i < pivotRange[0]) {
@@ -104,15 +115,17 @@ public class Code_06_BFPRT {
 			return select(arr, pivotRange[1] + 1, end, i);
 		}
 	}
-
+	/**
+	* 获取n/5的中位数数组中的中位数（作为基准）
+	* */
 	public static int medianOfMedians(int[] arr, int begin, int end) {
 		int num = end - begin + 1;
 		int offset = num % 5 == 0 ? 0 : 1;
-		int[] mArr = new int[num / 5 + offset];
+		int[] mArr = new int[num / 5 + offset];//存储中位数
 		for (int i = 0; i < mArr.length; i++) {
 			int beginI = begin + i * 5;
 			int endI = beginI + 4;
-			mArr[i] = getMedian(arr, beginI, Math.min(end, endI));
+			mArr[i] = getMedian(arr, beginI, Math.min(end, endI));//中位数
 		}
 		return select(mArr, 0, mArr.length - 1, mArr.length / 2);
 	}
@@ -140,6 +153,7 @@ public class Code_06_BFPRT {
 		insertionSort(arr, begin, end);
 		int sum = end + begin;
 		int mid = (sum / 2) + (sum % 2);
+		//仅排序5个数，所以是O(1)的操作
 		return arr[mid];
 	}
 

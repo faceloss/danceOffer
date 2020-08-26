@@ -1,7 +1,10 @@
 package nowcoder.base.class_02;
-
+/**
+ * 增加最短的字符串使之变成回文串
+* */
 public class Code_05_Manacher_ShortestEnd {
 
+	//解决偶数问题 增加字符
 	public static char[] manacherString(String str) {
 		char[] charArr = str.toCharArray();
 		char[] res = new char[str.length() * 2 + 1];
@@ -22,6 +25,7 @@ public class Code_05_Manacher_ShortestEnd {
 		int pR = -1;
 		int maxContainsEnd = -1;
 		for (int i = 0; i != charArr.length; i++) {
+			//
 			pArr[i] = pR > i ? Math.min(pArr[2 * index - i], pR - i) : 1;
 			while (i + pArr[i] < charArr.length && i - pArr[i] > -1) {
 				if (charArr[i + pArr[i]] == charArr[i - pArr[i]])
@@ -47,7 +51,7 @@ public class Code_05_Manacher_ShortestEnd {
 	}
 
 	public static void main(String[] args) {
-		String str2 = "abcd123321";
+		String str2 = "abcd123321123";
 		System.out.println(shortestEnd(str2));
 
 	}
