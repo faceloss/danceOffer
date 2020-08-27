@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37644949-48c0-4d23-a13d-1379849ce308" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc283_MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc284_PeekingIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc287_FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc289_GameOfLife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc290_WordPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc292_CanWinNim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc295_MedianFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc297_SerializeDeserializeBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc299_BullsAndCows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc300_LengthOfLIS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc295_MedianFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc295_MedianFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc297_SerializeDeserializeBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc297_SerializeDeserializeBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc300_LengthOfLIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc300_LengthOfLIS.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,38 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Lc283_MoveZeroes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc283_MoveZeroes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lc284_PeekingIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc284_PeekingIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1994#1995#0" expanded="true" />
-                <element signature="e#2048#2049#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lc287_FindDuplicate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc287_FindDuplicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Lc289_GameOfLife.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc289_GameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,15 +33,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lc292_CanWinNim.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lc292_CanWinNim.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc292_CanWinNim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="228">
+              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding>
                 <element signature="e#1090#1091#0" expanded="true" />
                 <element signature="e#1125#1126#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc295_MedianFinder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc295_MedianFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2600">
+              <caret line="104" column="20" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem_25_MadianQuick.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_25_MadianQuick.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="62" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="62" />
+              <folding>
+                <element signature="e#2641#2642#0" expanded="true" />
+                <element signature="e#2689#2690#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="349" column="13" selection-start-line="349" selection-start-column="13" selection-end-line="349" selection-end-column="13" />
+              <folding>
+                <element signature="e#13000#13001#0" expanded="true" />
+                <element signature="e#13056#13057#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc297_SerializeDeserializeBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc297_SerializeDeserializeBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Code_04_SerializeAndReconstructTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_04/Code_04_SerializeAndReconstructTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc300_LengthOfLIS.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc300_LengthOfLIS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lc299_BullsAndCows.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc299_BullsAndCows.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -100,6 +136,8 @@
     <findStrings>
       <find>node2</find>
       <find>Palindrome</find>
+      <find>Median</find>
+      <find>Serialize</find>
     </findStrings>
     <replaceStrings>
       <replace>l1</replace>
@@ -154,6 +192,10 @@
         <option value="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc289_GameOfLife.java" />
         <option value="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc290_WordPattern.java" />
         <option value="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc292_CanWinNim.java" />
+        <option value="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc299_BullsAndCows.java" />
+        <option value="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc297_SerializeDeserializeBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc295_MedianFinder.java" />
+        <option value="$PROJECT_DIR$/src/acwing_leetcode/day13/Lc300_LengthOfLIS.java" />
       </list>
     </option>
   </component>
@@ -208,14 +250,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="acwing_leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="day13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="danceOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="acwing_leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="day13" type="462c0819:PsiDirectoryNode" />
-              <item name="Lc284_PeekingIterator.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="danceOffer" type="b2602c69:ProjectViewProjectNode" />
@@ -290,12 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lc292_CanWinNim">
-    <configuration name="Lc287_FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="acwing_leetcode.day13.Lc287_FindDuplicate" />
-      <module name="danceOffer" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
+  <component name="RunManager" selected="Application.Lc300_LengthOfLIS">
     <configuration name="Lc289_GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="acwing_leetcode.day13.Lc289_GameOfLife" />
       <module name="danceOffer" />
@@ -311,8 +340,13 @@
       <module name="danceOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PeekingIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="acwing_leetcode.day13.PeekingIterator" />
+    <configuration name="Lc295_MedianFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="acwing_leetcode.day13.Lc295_MedianFinder" />
+      <module name="danceOffer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Lc300_LengthOfLIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="acwing_leetcode.day13.Lc300_LengthOfLIS" />
       <module name="danceOffer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -340,19 +374,19 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
     <list>
-      <item itemvalue="Application.PeekingIterator" />
-      <item itemvalue="Application.Lc287_FindDuplicate" />
       <item itemvalue="Application.Lc289_GameOfLife" />
       <item itemvalue="Application.Lc290_WordPattern" />
       <item itemvalue="Application.Lc292_CanWinNim" />
+      <item itemvalue="Application.Lc295_MedianFinder" />
+      <item itemvalue="Application.Lc300_LengthOfLIS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lc300_LengthOfLIS" />
+        <item itemvalue="Application.Lc295_MedianFinder" />
         <item itemvalue="Application.Lc292_CanWinNim" />
         <item itemvalue="Application.Lc290_WordPattern" />
         <item itemvalue="Application.Lc289_GameOfLife" />
-        <item itemvalue="Application.Lc287_FindDuplicate" />
-        <item itemvalue="Application.PeekingIterator" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +406,7 @@
       <workItem from="1597800570348" duration="27075000" />
       <workItem from="1598253544695" duration="1688000" />
       <workItem from="1598404880902" duration="27451000" />
-      <workItem from="1598491319041" duration="16757000" />
+      <workItem from="1598491319041" duration="20786000" />
     </task>
     <task id="LOCAL-00001" summary="提交ignore">
       <created>1597719198876</created>
@@ -413,7 +447,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99232000" />
+    <option name="totallyTimeSpent" value="103261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-254" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -422,25 +456,25 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32935324" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5058573" side_tool="true" visible="true" weight="0.24179104" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50692225" side_tool="true" visible="true" weight="0.27462685" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4941427" visible="true" weight="0.24179104" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49254525" weight="0.24179104" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49840257" weight="0.23980099" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978701" weight="0.39900497" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19275825" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4946752" weight="0.27462685" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49307775" visible="true" weight="0.27462685" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,24 +625,17 @@
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc300_LengthOfLIS.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="46" />
+      <option name="time" value="48" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_1_stackandqueue/Problem_01_GetMinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_06/Code_01_BFS.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_08/Code_06_ReverseStackUsingRecursive.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aim2offer/No02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -900,34 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc295_MedianFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc297_SerializeDeserializeBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc299_BullsAndCows.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc300_LengthOfLIS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc283_MoveZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -970,12 +969,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc292_CanWinNim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="228">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding>
             <element signature="e#1090#1091#0" expanded="true" />
             <element signature="e#1125#1126#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc299_BullsAndCows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="349" column="13" selection-start-line="349" selection-start-column="13" selection-end-line="349" selection-end-column="13" />
+          <folding>
+            <element signature="e#13000#13001#0" expanded="true" />
+            <element signature="e#13056#13057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chengyun_zuo/chapter_9_others/Problem_25_MadianQuick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="62" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="62" />
+          <folding>
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2689#2690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc295_MedianFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="104" column="20" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc297_SerializeDeserializeBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowcoder/base/class_04/Code_04_SerializeAndReconstructTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/acwing_leetcode/day13/Lc300_LengthOfLIS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
