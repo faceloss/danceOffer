@@ -14,6 +14,7 @@ package acwing_leetcode.day01;
  **/
 
 public class Lc4_Find_Median_SortedArrays {
+
     public static void main(String[] args) {
         int[] nums1 = {1, 2};
         int[] nums2 = {3, 4};
