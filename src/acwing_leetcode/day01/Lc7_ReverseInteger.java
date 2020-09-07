@@ -18,6 +18,7 @@ public class Lc7_ReverseInteger {
     public static void main(String[] args) {
         System.out.println(reverse(1534236469));
     }
+    //憨憨思路
     public static int reverse(int x) {
         boolean isNegative = x < 0;
         String str = String.valueOf(x);
@@ -47,10 +48,12 @@ public class Lc7_ReverseInteger {
     public static int reverse2(int x) {
         int rev=0;
         while(x != 0){
+            // %10是取最低位
             int pop = x%10;
+            //向右移位 10进制
             x/=10;
             // 这里可以cover所有测试用例
-            if(rev>214748364 || rev<-214748364 || (rev==-214748362 && pop<-8) || (rev==214748364 && pop>7)){
+            if(rev>214748364 || rev<-214748364 || (rev==-214748364 && pop<-8) || (rev==214748364 && pop>7)){
                 return 0;
             }
             rev=rev*10+pop;

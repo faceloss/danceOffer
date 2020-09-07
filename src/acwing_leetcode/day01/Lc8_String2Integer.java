@@ -29,55 +29,73 @@ public class Lc8_String2Integer {
         System.out.println(myAtoi("+"));
     }
     public static int myAtoi(String str) {
-        if(str == null || str.length()==0 || str.isEmpty()){
+        char[] chars = str.toCharArray();
+        int n = chars.length;
+        int idx = 0;
+        //找到第一个非空字符
+        while (idx < n && chars[idx] == ' ') {
+            // 去掉前导空格
+            idx++;
+        }
+        if (idx == n) {
+            //去掉前导空格以后到了末尾了
+            return 0;
+        }
+        boolean negative = false;
+        if (chars[idx] == '-') {
+            //遇到负号
+            negative = true;
+            idx++;
+        } else if (chars[idx] == '+') {
+            // 遇到正号
+            idx++;
+        } else if (!Character.isDigit(chars[idx])) {
+            // 其他符号
+            return 0;
+        }
+        int ans = 0;
+        while (idx < n && Character.isDigit(chars[idx])) {
+            int digit = chars[idx] - '0';
+            if (ans > (Integer.MAX_VALUE - digit) / 10) {
+                // 本来应该是 ans * 10 + digit > Integer.MAX_VALUE
+                // 但是 *10 和 + digit 都有可能越界，所有都移动到右边去就可以了。
+                return negative? Integer.MIN_VALUE : Integer.MAX_VALUE;
+            }
+            ans = ans * 10 + digit;
+            idx++;
+        }
+        return negative? -ans : ans;
+    }
+    public static int myAtoi2(String str) {
+        char[] chars = str.toCharArray();
+        int len =chars.length;
+        int index = 0;
+        boolean isNegative = false;
+        while(chars[index] == ' '){
+            index++;
+        }
+        if(index == len){
+            return 0;
+        }
+        if(chars[index] == '-'){
+            isNegative = true;
+            index++;
+        }
+        if(chars[index] == '+'){
+            index++;
+        }
+        if(index < len && !Character.isDigit(chars[index])){
             return 0;
         }
         int res = 0;
-        boolean isNegative = false;
-        str = str.trim();
-        str = str.replace("+", "");
-        if(str.isEmpty()){
-            return 0;
-        }
-        char head = str.charAt(0);
-        if(head!='-' && ((head-'0')<0 || (head-'0')>9)){
-            return 0;
-        }
-        isNegative = str.charAt(0)=='-';
-        if(isNegative){
-            str = str.substring(1,str.length());
-        }
-        char[] chars = str.toCharArray();
-        int index = -1;
-        //记录出现非法字符的位置
-        for (int i = 0; i < chars.length; i++) {
-            if(chars[i]-'0'>9 || chars[i]-'0'<0){
-                index = i;
-                break;
+        while(index< len && Character.isDigit(chars[index])){
+            int digit = chars[index] - '0';
+            if(res > 214748364){
+                return isNegative ? Integer.MIN_VALUE : Integer.MAX_VALUE;
             }
+            res = res * 10 + digit;
+            index++;
         }
-        if(index == -1){
-            index = chars.length;
-        }
-        char[] charRes = new char[index];
-        for (int i = 0; i <index ; i++) {
-            if(chars[i]-'0'>9 || chars[i]-'0'<0){
-                chars[i] = ' ';
-            }
-            charRes[i] = chars[i];
-        }
-        String strRes = new String(charRes).trim();
-        if(strRes==null || strRes.isEmpty()){
-            return 0;
-        }
-        long judge = Long.parseLong(strRes);
-        if(isNegative && judge > 2147483628){
-            return -2147483648;
-        }
-        if(!isNegative && judge > 2147483647l){
-            return 2147483647;
-        }
-        res = isNegative ? 0-Integer.parseInt(strRes) :Integer.parseInt(strRes);
-        return res;
+        return isNegative ? -res : res;
     }
 }

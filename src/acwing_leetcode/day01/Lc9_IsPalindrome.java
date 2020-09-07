@@ -14,9 +14,22 @@ package acwing_leetcode.day01;
 
 public class Lc9_IsPalindrome {
     public static void main(String[] args) {
-
+        System.out.println(isPalindrome(12321));
     }
-    public boolean isPalindrome(int x) {
-        return false;
+    public static  boolean isPalindrome(int x) {
+        if(x < 0){
+            return false;
+        }
+        int reverse = 0;
+        int temp = x;
+        while(temp > 0){
+            int digit = temp % 10;
+            temp /=10;
+            if(reverse > (Integer.MAX_VALUE - digit)/10){
+                return false;
+            }
+            reverse = reverse * 10 + digit;
+        }
+        return x == reverse;
     }
 }

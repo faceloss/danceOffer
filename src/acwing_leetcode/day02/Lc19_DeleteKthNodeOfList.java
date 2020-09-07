@@ -1,4 +1,4 @@
-package acwing_leetcode.day01;
+package acwing_leetcode.day02;
 
 /**
  * @Auther: mobing

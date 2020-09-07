@@ -23,7 +23,7 @@ public class Lc1_TwoSum {
         }
     }
    // 正确解法
-    public static int[] getTwoSumIndex2(int[] nums, int target){
+    public static int[] getTwoSumIndex(int[] nums, int target){
         if(nums.length<2){
             return null;
         }
@@ -36,32 +36,4 @@ public class Lc1_TwoSum {
         }
         return null;
     }
-
-    // 错误解法，如果是有序数组，且不重复？可以这样
-    public static int[] getTwoSumIndex(int[] arr, int target){
-        if(arr.length < 2){
-            return null;
-        }
-        Map<Integer,Integer> map = new HashMap();
-        for (int i = 0; i <arr.length ; i++) {
-            // 这里也可以在map的value里放别的！
-            map.put(arr[i], i);
-        }
-        Arrays.sort(arr);
-        int left = 0;
-        int right = arr.length-1;
-        while(left < right){
-            if(arr[left]+arr[right] < target){
-                left++;
-            }else if(arr[left]+arr[right] > target){
-                right--;
-            }else{
-                return new int[] {map.get(arr[left]),map.get(arr[right])};
-            }
-        }
-        return null;
-    }
-
-
-
 }

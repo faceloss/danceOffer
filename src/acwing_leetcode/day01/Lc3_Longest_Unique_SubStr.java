@@ -29,11 +29,12 @@ public class Lc3_Longest_Unique_SubStr {
         // 右指针，初始值为 -1，相当于我们在字符串的左边界的左侧，还没有开始移动
         int right = -1, res = 0;
         for (int left = 0; left < n; ++left) {
+            //计算从left开始可以得到的最大unique SubStr
             if (left != 0) {
                 // 左指针向右移动一格，移除一个字符
                 unique.remove(chars[left-1]);
             }
-            // 移动右指针,只要不重复，否则停止
+            // 移动右指针,只要不重复，否则停止 判断下一位是否重复 重复则不移动指针
             while (right + 1 < n && !unique.contains(chars[right+1])) {
                 unique.add(chars[right+1]);
                 ++right;

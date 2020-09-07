@@ -47,6 +47,7 @@ public class Lc2_AddTwoNumbers {
             res = res.next;
         }
     }
+    // 算法思路：两个链子一起走，如果到了null 则继续为null 两者和>10会进位，当前位val%10 进位val/10
     // 假如是 2 4 3 和 5 6 4，产生进位怎么办 7 0 8
     public static ListNode addTwoSum2(ListNode l1, ListNode l2) {
         // 假如是 5 5，假如是 1 2,假如是51和59 011
@@ -69,40 +70,4 @@ public class Lc2_AddTwoNumbers {
         }
         return head.next;
     }
-
-    // 错误解法，受限于链表长度，不能直接加和再构造
-    public static ListNode addTwoSum(ListNode l1, ListNode l2){
-        long value1 =0;
-        long value2 =0;
-        long base = 1;
-        ListNode temp1 = l1;
-        ListNode temp2 = l2;
-        while(temp1 != null){
-            value1 += temp1.val  * base;
-            base *= 10;
-            temp1 = temp1.next;
-        }
-        base =1;
-        while(temp2 != null){
-            // 21474 83647
-            value2 += temp2.val  * base;
-            base *= 10;
-            temp2 = temp2.next;
-        }
-        long sum = value1+value2;
-        ListNode head = new ListNode(-1);
-        ListNode before = head;
-        if(sum == 0){
-            return new ListNode(0);
-        }
-        while(sum > 0){
-            long curVal = sum % 10;
-            sum /=10;
-            ListNode cur = new ListNode((int)curVal);
-            before.next=cur;
-            before = cur;
-        }
-        return head.next;
-    }
-
 }
