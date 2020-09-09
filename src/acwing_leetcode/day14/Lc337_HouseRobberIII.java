@@ -1,4 +1,6 @@
-package acwing_leetcode;
+package acwing_leetcode.day14;
+
+import acwing_leetcode.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;
