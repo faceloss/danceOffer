@@ -26,39 +26,12 @@ public class Lc14_LongestCommonPrefix {
         String[] strs = new String[] {"flower","flow","flight"};
         System.out.println(longestCommonPrefix(strs));
     }
-    public static String longestCommonPrefix(String[] strs) {
-        if(strs == null || strs.length ==0){
-            return "";
-        }
-        if(strs.length < 2){
-            return strs[0];
-        }
-        int min=Integer.MAX_VALUE, premin=Integer.MAX_VALUE;
-        int index = 0, preIndex = 0;
-        for (int i = 0; i < strs.length; i++) {
-            if(strs[i].length() < min){
-                premin = min;
-                preIndex = index;
-                min = strs[i].length();
-                index = i;
-            }
-        }
-        StringBuilder sb = new StringBuilder();
-        // 最小和次小的两个字符串比较 比较哪里？比较min长度
-        int cur = 0;
-        while(cur < min && strs[index].charAt(cur)==strs[preIndex].charAt(cur)){
-            sb.append(strs[index].charAt(cur));
-            cur++;
-        }
-        return sb.toString();
-    }
     /**
     *时间复杂度：O(mnlogm)，其中 m 是字符串数组中的字符串的最小长度，n 是字符串的数量。
      * 二分查找的迭代执行次数是O(logm)，每次迭代最多需要比较 mn 个字符，因此总时间复杂度是 O(mnlogm)。
      * * */
-    class Solution {
         // 找到最短的字符串 和 其他的字符串去比较 是否被包含？
-        public String longestCommonPrefix(String[] strs) {
+        public static String longestCommonPrefix(String[] strs) {
             if (strs == null || strs.length == 0) {
                 return "";
             }
@@ -80,7 +53,7 @@ public class Lc14_LongestCommonPrefix {
             return strs[0].substring(0, low);
         }
         //两个字符串之间比较
-        public boolean isCommonPrefix(String[] strs, int length) {
+        public static boolean isCommonPrefix(String[] strs, int length) {
             String str0 = strs[0].substring(0, length);
             int count = strs.length;
             // n*m
@@ -91,7 +64,6 @@ public class Lc14_LongestCommonPrefix {
             }
             return true;
         }
-    }
     class Solution2 {
         // 将上一次比较获得的信息利用上
         public String longestCommonPrefix(String[] strs) {

@@ -22,7 +22,7 @@ public class Lc1_TwoSum {
             System.out.println(res[i]);
         }
     }
-   // 正确解法
+   // 正确解法 用了On空间 On时间
     public static int[] getTwoSumIndex(int[] nums, int target){
         if(nums.length<2){
             return null;

@@ -33,9 +33,9 @@ public class Lc10_RegularExpressionMatching {
             for (int j = 1; j <= n; ++j) {
                 // *的判断
                 if (p.charAt(j - 1) == '*') {
-                    //如果不等于那就相当于使用0次
+                    //如果si-1 不等于 pj-1 不等于那就相当于*和前面一字符组合使用0次
                     f[i][j] = f[i][j - 2];
-                    // 如果si 等于 pj-1 那么他可以使用也可以不使用用 -*（-代表某个字符pj-1）
+                    // 如果si-1 等于 pj-2 那么他可以使用也可以不使用用 -*（-代表某个字符pj-2）
                     if (matches(s, p, i, j - 1)) {
                         f[i][j] = f[i][j] || f[i - 1][j];
                     }
@@ -48,7 +48,7 @@ public class Lc10_RegularExpressionMatching {
         }
         return f[m][n];
     }
-
+    // 第i和第j个 0坐标表示第1个
     public static boolean matches(String s, String p, int i, int j) {
         // 前i 和 前j 转成index需要减1
         if (i == 0) {

@@ -90,6 +90,7 @@ public class Lc8_String2Integer {
         int res = 0;
         while(index< len && Character.isDigit(chars[index])){
             int digit = chars[index] - '0';
+            // ==的情况 >7 与 <-8 即 + >7  - >8也要返回。。
             if(res > 214748364){
                 return isNegative ? Integer.MIN_VALUE : Integer.MAX_VALUE;
             }

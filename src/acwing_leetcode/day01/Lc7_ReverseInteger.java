@@ -16,7 +16,7 @@ package acwing_leetcode.day01;
 
 public class Lc7_ReverseInteger {
     public static void main(String[] args) {
-        System.out.println(reverse(1534236469));
+        System.out.println(reveseInt4(123));
     }
     //憨憨思路
     public static int reverse(int x) {
@@ -59,5 +59,19 @@ public class Lc7_ReverseInteger {
             rev=rev*10+pop;
         }
         return rev;
+    }
+
+    public static int reveseInt4(int num){
+        int reverse = 0;
+        while(num != 0){
+            int last = num % 10;
+            num /= 10;
+            //reverse * 10 + last =  临界值; 不能直接按照公式算。。。越界。。 所以 再判断== 并且last>7 与 <-8
+            if(reverse > Integer.MAX_VALUE /10 || reverse < Integer.MIN_VALUE /10 ){
+                return 0;
+            }
+            reverse = reverse * 10 + last;
+        }
+        return reverse;
     }
 }

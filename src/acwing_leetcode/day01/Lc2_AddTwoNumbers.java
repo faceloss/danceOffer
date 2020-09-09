@@ -53,7 +53,7 @@ public class Lc2_AddTwoNumbers {
         // 假如是 5 5，假如是 1 2,假如是51和59 011
         ListNode head = new ListNode(-1);
         ListNode ceil = head;
-        int value = 0;
+        int value = 0;//表示进位
         while(l1!=null || l2!=null || value>0){
             value = (l1==null?0:l1.val) + (l2==null?0:l2.val) + value;
             int curValue = value%10;

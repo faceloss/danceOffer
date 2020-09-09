@@ -22,7 +22,7 @@ public class Lc3_Longest_Unique_SubStr {
     }
     // 双指针l，r一起走，维护一个set记录指针中间唯一字符串，走的过程中，收集最大长度
     public static int lengthOfLongestSubstring(String s) {
-        // 刚开始看到最长，想到动态规划，但是好像不行？记录每个字符是否出现过
+        // 刚开始看到最长，想到动态规划，但是好像不行？记录每个字符是否出现过的状态无法表示
         Set<Character> unique = new HashSet<Character>();
         int n = s.length();
         char[] chars = s.toCharArray();
