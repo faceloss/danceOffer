@@ -1,5 +1,8 @@
 package acwing_leetcode.day14;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
  * @Auther: mobing
  * @Date: 2020/9/10 00:24
@@ -24,7 +27,40 @@ package acwing_leetcode.day14;
  * 解释: 不存在这样的两个单词
  */
 public class Lc318_MaximumProductofWordLengths {
-    public int maxProduct(String[] words) {
-        return 1;
+    public static void main(String[] args) {
+        String[] strings = {"a","ab","abc","d","cd","bcd","abcd"};
+        maxProduct(strings);
+    }
+    // 暴力解法。。。过了case
+    public static int maxProduct(String[] words) {
+        if(words == null || words.length<2){
+            return 0;
+        }
+        Arrays.sort(words, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return o1.length() - o2.length();
+            }
+        });
+        int res = 0;
+        boolean valid = true;
+        for (int i = words.length-1; i >= 0; i--) {
+            int big = words[i].length();
+            for (int j = i-1; j >=0 ; j--) {
+                char[] temp = words[j].toCharArray();
+                for (char cur : temp){
+                    if(words[i].indexOf(cur) != -1){
+                        valid = false;
+                    }
+                }
+                if(valid){
+//                    return big * words[j].length();
+                    res = Math.max(big * words[j].length(), res);
+                    break;
+                }
+                valid = true;
+            }
+        }
+        return res;
     }
 }
