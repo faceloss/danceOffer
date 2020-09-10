@@ -46,7 +46,7 @@ public class Lc321_CreateMaximumNumber {
         int n = nums1.length;
         int i = 0;
         int j = 0;
-        while(i<m && j<n && k>0){
+        while(i < m && j<n && k>0){
 
         }
         return null;

@@ -26,7 +26,23 @@ package acwing_leetcode.day14;
  * 你能不使用循环或者递归来完成本题吗？
  */
 public class Lc326_PowerofThree {
-    public boolean isPowerOfThree(int n) {
+    public static boolean isPowerOfThree(int n) {
+        if(n<=0){
+            return false;
+        }
+        if(n==1){
+            return true;
+        }
+        while(n%3 == 0){
+            n = n/3;
+            if(n==1){
+                return true;
+            }
+        }
         return false;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPowerOfThree(216));
     }
 }

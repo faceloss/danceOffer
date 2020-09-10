@@ -17,7 +17,37 @@ package acwing_leetcode.day14;
  * 解释: 3个区间分别是: [0,0], [2,2], [0,2]，它们表示的和分别为: -2, -1, 2。
  */
 public class Lc327_CountofRangeSum {
-    public int countRangeSum(int[] nums, int lower, int upper) {
-        return 1;
+    // i到j表示区间 区间和在l~u之间的个数  暴力解法。。。。
+    public static int countRangeSum(int[] nums, int lower, int upper) {
+        //滑动窗口
+        int len = nums.length;
+        int sum = 0;
+        for (int i = 1; i <=len ; i++) {
+            long temp = 0;
+            for (int j = 0; j <= len-i ; j++) {
+                if(j==0){
+                    for (int k = j; k < j+i; k++) {
+                        temp+=nums[k];
+                    }
+                }else{
+                    // 注意边界 假如是i=len-1 j=1  j+i-1
+                    temp += nums[j+i-1];
+                    temp -= nums[j-1];
+                }
+
+                if(temp>=lower && temp<=upper){
+                    sum++;
+                }
+
+            }
+        }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        int[] arr ={-2,5,-1};
+        int lower = -2;
+        int upper = 2;
+        System.out.println(countRangeSum(arr, lower, upper));
     }
 }

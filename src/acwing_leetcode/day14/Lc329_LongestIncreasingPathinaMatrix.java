@@ -34,6 +34,9 @@ package acwing_leetcode.day14;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class Lc329_LongestIncreasingPathinaMatrix {
+    //最长路径肯定是以某一个位置作为终点，那么他的上一步来自于4个方向
+
+    //从左上到右下 从右上到左下 从左下到右上 从右下到左上 （四次dp过程收集最大的？？ 看着像）
     public int longestIncreasingPath(int[][] matrix) {
         return 1;
     }

@@ -20,8 +20,11 @@ package acwing_leetcode.day14;
  * 进阶:
  * 你能用 O(n) 时间复杂度和 / 或原地 O(1) 额外空间来实现吗？
  */
+
+//偶数个<比>多一个 奇数个则相等
 public class Lc324_WiggleSortII {
     public void wiggleSort(int[] nums) {
+        //分支做法 ？
 
     }
 }

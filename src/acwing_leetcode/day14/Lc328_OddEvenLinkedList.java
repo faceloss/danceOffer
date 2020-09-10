@@ -25,6 +25,27 @@ import acwing_leetcode.ListNode;
  */
 public class Lc328_OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {
-return null;
+        ListNode dumy = new ListNode(-1);
+        dumy.next = head;
+        ListNode headNext = head.next;
+        ListNode pre = head;//偶数
+        ListNode cur = headNext;//奇数
+        ListNode tmp, next;
+        // 0 1 null null
+        while(pre!=null || cur!=null){
+            tmp = cur.next;
+            next = cur.next == null ? null : cur.next.next;
+            pre.next = tmp;
+            cur.next = next;
+            pre = tmp;
+            cur = next;
+        }
+        if(pre!=null){
+            pre.next = headNext;
+        }
+        if(cur!=null){
+            cur.next = head;
+        }
+        return dumy.next;
     }
 }
