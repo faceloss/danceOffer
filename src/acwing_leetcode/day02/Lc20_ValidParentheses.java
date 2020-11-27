@@ -63,6 +63,7 @@ public class Lc20_ValidParentheses {
             if (n % 2 == 1) {
                 return false;
             }
+            new HashMap<Integer, Integer>(){{}};
             Map<Character, Character> pairs = new HashMap<Character, Character>() {{
                 put(')', '(');
                 put(']', '[');
