@@ -34,6 +34,45 @@ import acwing_leetcode.ListNode;
 
 public class Lc25_ReverseNodesinKGroup {
     public ListNode reverseKGroup(ListNode head, int k) {
-        return null;
+        ListNode hair = new ListNode(0);
+        hair.next = head;
+        ListNode pre = hair;
+
+        while (head != null) {
+            ListNode tail = pre;
+            // 查看剩余部分长度是否大于等于 k
+            for (int i = 0; i < k; ++i) {
+                tail = tail.next;
+                if (tail == null) {
+                    return hair.next;
+                }
+            }
+            //k子链的下一个点
+            ListNode nex = tail.next;
+            //反转k链
+            ListNode[] reverse = myReverse(head, tail);
+            head = reverse[0];
+            tail = reverse[1];
+            // 把子链表重新接回原链表，这里的head是原tail tail是原head, 然后pre链尾 尾链nex 中间已经反转
+            pre.next = head;
+            tail.next = nex;
+            pre = tail;
+            head = tail.next;
+        }
+
+        return hair.next;
+    }
+
+    public ListNode[] myReverse(ListNode head, ListNode tail) {
+        ListNode prev = tail.next;
+        ListNode p = head;
+        // 没到第k个反转，第k次反转prev==tail
+        while (prev != tail) {
+            ListNode nex = p.next;
+            p.next = prev;
+            prev = p;
+            p = nex;
+        }
+        return new ListNode[]{tail, head};
     }
 }

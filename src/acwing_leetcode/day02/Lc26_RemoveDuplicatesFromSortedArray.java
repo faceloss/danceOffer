@@ -47,7 +47,36 @@ package acwing_leetcode.day02;
  **/
 
 public class Lc26_RemoveDuplicatesFromSortedArray {
-    public int removeDuplicates(int[] nums) {
-        return 0;
+    public static void main(String[] args) {
+        int[] nums = {0,0,1,1,1,2,2,3,3,4};
+        System.out.println(removeDuplicates2(nums));
+    }
+    //自己想的憨憨方法
+    public static int removeDuplicates(int[] nums) {
+        if(nums.length == 0){
+            return 0;
+        }
+        int n = nums.length;
+        int index = 0;
+        for (int i = 0; i < n; i++) {
+            int j = i + 1;
+            while(j<n && nums[j] == nums[j-1]){
+                j++;
+            }
+            i = j - 1;
+            nums[index++] = nums[j-1];
+        }
+        return index;
+    }
+    public static int removeDuplicates2(int[] nums) {
+        if (nums.length == 0) return 0;
+        int i = 0;
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+            }
+        }
+        return i + 1;
     }
 }

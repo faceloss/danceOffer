@@ -50,7 +50,31 @@ package acwing_leetcode.day02;
  **/
 
 public class Lc27_RemoveElement {
-    public int removeElement(int[] nums, int val) {
-        return 0;
+    //自己想的憨憨方法
+    public static int removeElement(int[] nums, int val) {
+        if(nums.length == 0){
+            return 0;
+        }
+        int n = nums.length;
+        int index = 0;
+        for (int i = 0; i < n; i++) {
+            while(i<n && nums[i] == val){
+                i++;
+            }
+            if(i<n){
+                nums[index++] = nums[i];
+            }
+        }
+        return index;
+    }
+    public int removeElement1(int[] nums, int val) {
+        int i = 0;
+        for (int j = 0; j < nums.length; j++) {
+            if (nums[j] != val) {
+                nums[i] = nums[j];
+                i++;
+            }
+        }
+        return i;
     }
 }

@@ -2,6 +2,7 @@ package acwing_leetcode.day02;
 
 import acwing_leetcode.ListNode;
 
+
 /**
  * @program: danceOffer
  * @description:24. 两两交换链表中的节点
@@ -15,11 +16,21 @@ import acwing_leetcode.ListNode;
  * @create: 2020-09-08 17:35
  *
  * 何去何从 去往何方
- *
  **/
 
 public class Lc24_SwapNodesInPairs {
     public ListNode swapPairs(ListNode head) {
-        return null;
+        ListNode dummyHead = new ListNode(0);
+        dummyHead.next = head;
+        ListNode temp = dummyHead;
+        while (temp.next != null && temp.next.next != null) {
+            ListNode node1 = temp.next;
+            ListNode node2 = temp.next.next;
+            temp.next = node2;
+            node1.next = node2.next;
+            node2.next = node1;
+            temp = node1;
+        }
+        return dummyHead.next;
     }
 }

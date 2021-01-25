@@ -31,6 +31,15 @@ package acwing_leetcode.day07;
  */
 public class Lc123_BestTimeToBuyAndSellStockIII {
     // 必须在购买前出售掉手中股票 2次买卖
+
+    public static void main(String[] args) {
+        int[] pries =  {1,2,3,4,5};
+        Lc123_BestTimeToBuyAndSellStockIII de = new Lc123_BestTimeToBuyAndSellStockIII();
+        System.out.println(de.maxProfit(pries));
+        System.out.println(de.maxProfit2(pries));
+        System.out.println(de.maxProfit3(pries));
+
+    }
     public int maxProfit(int[] prices) {
         // write your code here
         //这题需要记录状态 也就是当前持有股票的状态

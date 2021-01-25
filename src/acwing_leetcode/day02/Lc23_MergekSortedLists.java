@@ -1,6 +1,11 @@
 package acwing_leetcode.day02;
 
+import acwing_leetcode.ListNode;
 import acwing_leetcode.day01.Lc2_AddTwoNumbers;
+
+import java.util.Comparator;
+import java.util.List;
+import java.util.PriorityQueue;
 
 /**
  * @program: danceOffer
@@ -45,17 +50,60 @@ import acwing_leetcode.day01.Lc2_AddTwoNumbers;
  **/
 
 public class Lc23_MergekSortedLists {
-    /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode() {}
-     *     ListNode(int val) { this.val = val; }
-     *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-     * }
-     */
-    public Lc2_AddTwoNumbers.ListNode mergeKLists(Lc2_AddTwoNumbers.ListNode[] lists) {
-        return null;
-    }
+        class Status implements Comparable<Status> {
+            int val;
+            ListNode ptr;
+
+            Status(int val, ListNode ptr) {
+                this.val = val;
+                this.ptr = ptr;
+            }
+
+            public int compareTo(Status status2) {
+                return this.val - status2.val;
+            }
+        }
+
+        PriorityQueue<Status> queue = new PriorityQueue<Status>();
+
+        public ListNode mergeKLists(ListNode[] lists) {
+            for (ListNode node: lists) {
+                if (node != null) {
+                    queue.offer(new Status(node.val, node));
+                }
+            }
+            ListNode head = new ListNode(0);
+            ListNode tail = head;
+            while (!queue.isEmpty()) {
+                Status f = queue.poll();
+                tail.next = f.ptr;
+                tail = tail.next;
+                if (f.ptr.next != null) {
+                    queue.offer(new Status(f.ptr.next.val, f.ptr.next));
+                }
+            }
+            return head.next;
+        }
+
+        // 小堆，对k个链表排序
+        public ListNode mergeKLists1(ListNode[] lists) {
+            if (lists == null || lists.length == 0) return null;
+            PriorityQueue<ListNode> queue = new PriorityQueue<>(lists.length, new Comparator<ListNode>() {
+                @Override
+                public int compare(ListNode o1, ListNode o2) {
+                    return  o1.val - o2.val;
+                }
+            });
+            ListNode dummy = new ListNode(0);
+            ListNode p = dummy;
+            for (ListNode node : lists) {
+                if (node != null) queue.add(node);
+            }
+            while (!queue.isEmpty()) {
+                p.next = queue.poll();
+                p = p.next;
+                if (p.next != null) queue.add(p.next);
+            }
+            return dummy.next;
+        }
 }
