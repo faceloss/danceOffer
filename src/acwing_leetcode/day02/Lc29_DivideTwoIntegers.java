@@ -33,7 +33,53 @@ package acwing_leetcode.day02;
  **/
 
 public class Lc29_DivideTwoIntegers {
+    public static void main(String[] args) {
+        Lc29_DivideTwoIntegers s = new Lc29_DivideTwoIntegers();
+        int res = s.divide(-2147483648,2);
+        System.out.println(res);
+    }
     public int divide(int dividend, int divisor) {
-        return 0;
+        if(dividend == 0) return 0;
+        if(divisor == 1) return dividend;
+        if(divisor == -1){
+            if(dividend > Integer.MIN_VALUE){
+                return - dividend;
+            }
+            if(dividend == Integer.MIN_VALUE){
+                return Integer.MAX_VALUE;
+            }
+        }
+        int sign = 1;
+        int total = dividend;
+        int base = divisor;
+        if(dividend < 0){
+            sign = -sign;
+        }else{
+            total = -total;
+        }
+        if(divisor<0){
+            sign = -sign;
+        }else{
+            base = -base;
+        }
+        int res = recur(total, base);
+        if(sign < 0){
+            res = - res;
+        }
+        return res;
+    }
+    public int recur(int total, int base){
+        if(total > base){
+            return 0;
+        }
+        int cnt = 1;
+        // base分支下去不变
+        int cur = base;
+        while(cur + cur >= total && cur +cur < 0){
+            cnt += cnt;
+            cur += cur;
+        }
+        //收集了1/2 剩下1/2
+        return cnt + recur(total - cur, base);
     }
 }
