@@ -12,7 +12,7 @@ public class No20 {
         print(a);
         clockWisePrint(a, 0, 4);
     }
-
+    // 按照规律移动index 控制在空间上的查找
     private static void clockWisePrint(int[][] a, int i, int j) {
         if (j < i)
             return;
@@ -20,31 +20,31 @@ public class No20 {
             System.out.print(a[i][j] + " ");
             return;
         }
+        //第i行 y是一个index 从i i到i j
         int y = i;
         while (y <= j) {
             System.out.print(a[i][y] + " ");
             y++;
         }
+        //第j列去掉第一个 从i+1 j  到 jj
         y = i + 1;
         while (y <= j) {
             System.out.print(a[y][j] + " ");
             y++;
         }
+        // 第j行 去掉第一个此时i=j j j-1 j i
         y = j - 1;
         while (y >= i) {
             System.out.print(a[j][y] + " ");
             y--;
         }
-
+        //第 i列 j-1 i  i+1 i
         y = j - 1;
         while (y >= i + 1) {
             System.out.print(a[y][i] + " ");
             y--;
         }
-
-
         clockWisePrint(a, i + 1, j - 1);
-
     }
 
     private static void print(int[][] a) {

@@ -13,6 +13,7 @@ public class No38 {
         System.out.println(getNumberOfK(array, 3));
     }
 
+    // 可以使用 start+1<end 找到两个点。。。
     private static int getNumberOfK(int[] array, int k) {
         int num = 0;
         if (array != null) {

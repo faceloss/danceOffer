@@ -8,7 +8,7 @@ package aim2offer;
  */
 
 public class No08 {
-
+    // 思路需要防止重复元素，也要防止非旋转数组，此外还有边界问题 不论何种情况都把mid继续做下一次使用，最后返回right
     public static void main(String[] args) {
         int[] arr = {3, 4, 5, 1, 2};
         System.out.println(findMin(arr));

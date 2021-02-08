@@ -32,10 +32,10 @@ public class No13 {
         } else if (head == c) {
             head = null;
         } else {
+            // 1 2 3 如何删除1 将1变成2 2删除掉
             c.setData(c.getNext().getData());
             c.setNext(c.getNext().getNext());
         }
-
     }
 
 

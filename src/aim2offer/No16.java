@@ -7,4 +7,18 @@ package aim2offer;
 
 // 具体同No5
 public class No16 {
+    public ListNode reverse(ListNode head){
+        if(head == null || head.nextNode==null){
+            return head;
+        }
+        ListNode pre = head;
+        ListNode cur = head.nextNode;
+        while(cur != null){
+            ListNode temp = cur.nextNode;
+            cur.nextNode = pre;
+            pre = cur;
+            cur = temp;
+        }
+        return pre;
+    }
 }

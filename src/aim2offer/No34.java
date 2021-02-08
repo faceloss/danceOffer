@@ -12,7 +12,7 @@ public class No34 {
         System.out.println(getUgly(20));
 
     }
-
+    //丑数思路是归并 且依赖于归并结果 且要维护指针来满足下一次归并
     private static int getUgly(int n) {
         if (n < 0)
             return 0;

@@ -38,7 +38,7 @@ public class No17 {
             return b;
         if (b == null)
             return a;
-
+        // dumy, return dumy.next;
         Node17 head = a.getData() > b.getData() ? b : a;
         Node17 index1 = head.getNext();
         Node17 index2 = head == a ? b : a;

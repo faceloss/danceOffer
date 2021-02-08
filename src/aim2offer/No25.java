@@ -23,7 +23,7 @@ public class No25 {
         findPath(root, 22);
     }
 
-    private static void findPath(BinaryTreeNode root, int i) {
+     private static void findPath(BinaryTreeNode root, int i) {
         if (root == null)
             return;
         Stack<Integer> stack = new Stack<Integer>();
@@ -43,13 +43,16 @@ public class No25 {
                 }
             }
         }
+        //       10
+        //     5      12
+        //  4      7
         if (root.getLchildNode() != null) {
             findPath(root.getLchildNode(), i, stack, currentSum);
         }
         if (root.getRchildNode() != null) {
             findPath(root.getRchildNode(), i, stack, currentSum);
         }
-
+        //回溯
         stack.pop();
     }
 

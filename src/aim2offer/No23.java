@@ -9,6 +9,7 @@ import java.util.Queue;
 
 public class No23 {
 
+    //借助队列 打印当前放入当前节点的左右节点，先进先出 bfs?
     public static void main(String[] args) {
         BinaryTreeNode node1 = new BinaryTreeNode(8);
         BinaryTreeNode node2 = new BinaryTreeNode(6);

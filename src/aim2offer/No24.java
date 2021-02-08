@@ -26,13 +26,13 @@ public class No24 {
             return true;
 
         int root = array[end];
-
+        //左右根 找到第一个大于end的节点 在右边
         int i = start;
         for (; i <= end; i++) {
             if (array[i] > root)
                 break;
         }
-
+        //从第一个大于end的开始到end有小于的则不正确
         int j = i;
         for (; j <= end; j++) {
             if (array[j] < root)
@@ -40,6 +40,7 @@ public class No24 {
         }
 
         boolean left = true;
+        // start i-1 , i end
         if (i > start) {
             left = verfiySequenceOfBST(array, start, i - 1);
         }

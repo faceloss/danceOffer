@@ -5,7 +5,7 @@ package aim2offer;
  */
 
 public class No18 {
-
+    // 判断是否字结构只需要判断 当前节点 左节点 右节点与目标的关系，完全重合返回true
     public static void main(String[] args) {
 
         BinaryTreeNode node1 = new BinaryTreeNode(8);

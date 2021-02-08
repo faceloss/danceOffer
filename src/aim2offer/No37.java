@@ -36,7 +36,7 @@ public class No37 {
         System.out.println(findFirstCommonNode(head1, head2).data);
 
     }
-
+    //想到一个Y形状的链表即可
     public static ListNode findFirstCommonNode(ListNode head1, ListNode head2) {
         int len1 = getListLength(head1);
         int len2 = getListLength(head2);

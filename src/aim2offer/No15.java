@@ -44,7 +44,7 @@ public class No15 {
             Node1 = Node1.getNext();
         }
         Node2 = a;
-
+        // 10 走了3步 然后还要走7步
         while (Node1.getNext() != null) {
             Node1 = Node1.getNext();
             Node2 = Node2.getNext();

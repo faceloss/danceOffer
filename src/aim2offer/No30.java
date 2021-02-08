@@ -4,9 +4,14 @@
  */
 package aim2offer;
 
+import java.util.Comparator;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
 public class No30 {
 
     public static void main(String[] args) {
+
         int[] arr = {1, 3, 4, 2, 7, 8, 9, 10, 14, 16};
         System.out.println(minK(arr, 1));
         System.out.println(minK(arr, 2));
@@ -14,6 +19,60 @@ public class No30 {
         System.out.println(minK(arr, 4));
         System.out.println(minK(arr, 5));
         System.out.println(minK(arr, 6));
+        Integer[] res =  minK1(arr, 3);
+        System.out.println(1);
+        // on时间 ok空间
+        int[] arr3 = {0,0,0,2,0,5};
+        int kk = 0;
+        System.out.println(getLeastNumbers(arr3,0));
+    }
+
+    public static int[] getLeastNumbers(int[] arr, int k) {
+        if(arr == null || arr.length < k || k <=0 ){
+            return null;
+        }
+        Queue<Integer> queue = new PriorityQueue<>(k, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o2 - o1;
+            }
+        });
+        for (int i = 0; i < arr.length; i++) {
+            if(i < k){
+                queue.add(arr[i]);
+            }else if(arr[i] < queue.peek()){
+                queue.poll();
+                queue.add(arr[i]);
+            }
+        }
+        int[] res = new int[k];
+        for (int i = 0; i < k; i++) {
+            res[i] = queue.poll();
+        }
+        return res;
+    }
+
+    public static Integer[] minK1(int[] arr, int k) {
+        if(arr == null || arr.length <k){
+            return null;
+        }
+        Queue<Integer> queue = new PriorityQueue<>(k, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o2 - o1;
+            }
+        });
+        for (int i = 0; i < k; i++) {
+            queue.add(arr[i]);
+        }
+        for (int i = k; i <arr.length ; i++) {
+            if(arr[i] < queue.peek()){
+                queue.poll();
+                queue.add(arr[i]);
+            }
+        }
+        Integer[] res = new Integer[k];
+        return queue.toArray((Integer[])res);
     }
 
     public static int minK(int[] arr, int k) {

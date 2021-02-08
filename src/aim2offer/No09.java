@@ -8,8 +8,8 @@ package aim2offer;
 public class No09 {
 
     public static void main(String[] args) {
-        System.out.println(fibonacci(5));
-        System.out.println(getMethodNumber(10));
+        System.out.println(fibonacci(2));
+        System.out.println(getMethodNumber(2));
     }
 
     private static long fibonacci(int n) {

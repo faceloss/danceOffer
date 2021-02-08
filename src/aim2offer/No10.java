@@ -13,11 +13,23 @@ public class No10 {
         System.out.println(getNum(9));
     }
 
+    // 如果是***1 -1就会移除一个，如果是**110 减1就是 101 ，100 011
     public static int getNum(int n) {
         int num = 0;
         while (n != 0) {
             num++;
             n = (n - 1) & n;
+        }
+        return num;
+    }
+    // 7  0111 7%2 1 3%2 =1 1%2=1；
+    public static int getNum1(int n) {
+        int num = 0;
+        while (n != 0) {
+            if(n%2 == 1){
+                num++;
+            }
+            n = n / 2 ;
         }
         return num;
     }

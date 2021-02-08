@@ -1,7 +1,8 @@
 package aim2offer;
 
 /**
- * 在数组中的两个数字如果前面一个数字大于后面的数字， 则这两个数字组成一个逆序对。 输入一个数组，求出这个数组中的逆序对的总数
+ * 在数组中的两个数字如果前面一个数字大于后面的数字， 则这两个数字组成一个逆序对。
+ * 输入一个数组，求出这个数组中的逆序对的总数
  */
 
 public class No36 {
@@ -31,11 +32,12 @@ public class No36 {
         int rightIndex = end;
         int count = 0;
         int point = rightIndex;
+        //leftIndex  rightIndex 左右边界
         while (leftIndex >= start && rightIndex >= start + length + 1) {
             if (array[leftIndex] > array[rightIndex]) {
+                //左边的大才能收集结果 （rightIndex -(start+length)）就是右边的所有
                 result[point--] = array[leftIndex--];
                 count += rightIndex - start - length;
-
             } else {
                 result[point--] = array[rightIndex--];
             }

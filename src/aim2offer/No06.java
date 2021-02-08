@@ -5,7 +5,7 @@ package aim2offer;
  */
 
 public class No06 {
-
+    // 前中得到后
     public static void main(String[] args) {
         String preOrder = "12473568";
         String midOrder = "47215386";

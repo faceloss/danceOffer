@@ -21,11 +21,11 @@ public class No31 {
             sum += arr[i];
             if (sum > max)
                 max = sum;
+            // 如果是负的 前面的子数组就不需要了 重新开始
             else if (sum < 0)
                 sum = 0;
         }
         return max;
-
     }
 
 }

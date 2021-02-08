@@ -18,6 +18,7 @@ public class No12 {
         printArray(array, 0);
     }
 
+    //带着array空间、n索引进去，然后应该填入的值是i 0～9 到何时打印，收集完了打印
     private static void printArray(int[] array, int n) {
 
         if (n != array.length) {

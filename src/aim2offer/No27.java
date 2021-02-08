@@ -6,6 +6,7 @@ package aim2offer;
  */
 
 public class No27 {
+    // 二叉搜索树 左小右大，变有序链表可以让左边有序 让右边有序，然后找到左最后一个指向当前
 
     public static void main(String[] args) {
         BinaryTreeNode root = new BinaryTreeNode(10);
@@ -29,7 +30,7 @@ public class No27 {
             head = head.getRchildNode();
         }
     }
-
+    //双向链表 有序。。。
     private static BinaryTreeNode covert(BinaryTreeNode root) {
         BinaryTreeNode lastNodeList = null;
         lastNodeList = convertNode(root, lastNodeList);

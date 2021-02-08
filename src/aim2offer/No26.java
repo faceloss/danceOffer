@@ -28,17 +28,20 @@ public class No26 {
             result = result.next;
         }
     }
-
+    // 复杂链表的复制
     private static ComplexListNode clone(ComplexListNode head) {
         cloneNodes(head);
         copySibingNodes(head);
         return separateNodes(head);
     }
-
+    // 1 1 2 2 3 3，复制好了，也指向好了，开始分割了
     private static ComplexListNode separateNodes(ComplexListNode head) {
         ComplexListNode node = head;
+        //需要返回的
         ComplexListNode cloneHead = null;
+        //迭代分割的
         ComplexListNode cloneNode = null;
+        // 1 1 2 2 3 3
         if (node != null) {
             cloneNode = node.next;
             cloneHead = cloneNode;
@@ -46,14 +49,16 @@ public class No26 {
             node = node.next;
         }
         while (node != null) {
+            //clone 的nxt是node的next
             cloneNode.next = node.next;
             cloneNode = cloneNode.next;
+            //node的nxt是clone的next
             node.next = cloneNode.next;
             node = node.next;
         }
         return cloneHead;
     }
-
+    //复制非常规指针 1 1 2 2 3 3， 新的非常规在旧的非常规后面
     private static void copySibingNodes(ComplexListNode head) {
         ComplexListNode node = head;
         while (node != null) {
@@ -66,7 +71,7 @@ public class No26 {
         }
 
     }
-
+    // 1 2 3 ,插入1123？ node clone nxt ,下一步node=nxt
     private static void cloneNodes(ComplexListNode head) {
         ComplexListNode node = head;
         while (node != null) {

@@ -20,8 +20,8 @@ public class No03 {
 
     private static boolean search(int[][] arr, int value) {
 
-        int a = arr[0].length;
-        int b = arr.length;
+        int a = arr[0].length;// 宽
+        int b = arr.length;// 高
         int i = 0;
         int j = a - 1;
 

@@ -11,6 +11,7 @@ import java.util.Stack;
  */
 
 public class No22 {
+    // 贪心方法，for push序列 只要stack中peek 与pop序列重合就一直statck pop 并且index++ for循环走完判断重合量
 
     public static void main(String[] args) {
         Integer[] pushOrder = {1, 2, 3, 4, 5};

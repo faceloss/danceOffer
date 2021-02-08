@@ -22,12 +22,15 @@ public class No14 {
         int left = 0;
         int right = array.length - 1;
         while (left < right) {
+            // 找偶停
             while (left < right && !isEven(array[left])) {
                 left++;
             }
+            // 找奇停
             while (left < right && isEven(array[right])) {
                 right--;
             }
+            // 2 3 则交换 2或者3 有一个没找到则break
             if (left < right) {
                 int temp = array[right];
                 array[right] = array[left];

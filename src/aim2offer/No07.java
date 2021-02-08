@@ -6,6 +6,7 @@ import java.util.Stack;
  * 两个栈建立队列
  */
 
+// 队列是先进先出 栈先进后出 ，假如123进栈1 将栈1弹出321进栈2 从栈2取出的就是123顺序
 public class No07 {
 
     private Stack s1 = new Stack();

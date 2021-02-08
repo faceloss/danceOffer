@@ -20,6 +20,7 @@ public class No35 {
         char[] strChar = str.toCharArray();
         LinkedHashMap<Character, Integer> hash = new LinkedHashMap<Character, Integer>();
         for (char item : strChar) {
+            hash.put(item,hash.getOrDefault(item,0) + 1);
             if (hash.containsKey(item))
                 hash.put(item, hash.get(item) + 1);
             else

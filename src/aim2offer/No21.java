@@ -30,6 +30,7 @@ class MyStack {
 
     public void push(int num) {
         stack1.push(num);
+        //维护help栈顶是最小值
         if (stackHelp.size() == 0 || num < stackHelp.peek()) {
             stackHelp.push(num);
         } else {
@@ -40,7 +41,6 @@ class MyStack {
     public void pop() {
         stack1.pop();
         stackHelp.pop();
-
     }
 
     public Integer min() {
