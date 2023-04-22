@@ -1,18 +1,26 @@
 package huawei.od;
 
-import java.util.*;
-import java.util.stream.Collectors;
 /**
-* 预定酒店：搜到各个价位的酒店n家，心理预期价格是x,找出k个最接近x的酒店并输出
- * https://blog.csdn.net/banxia_frontend/article/details/129640773?spm=1001.2014.3001.5502
-* */
-class P01_Hotel_Reservation {
+ * @program: danceOffer
+ * @description:
+ * @author: mobing_yin
+ * @create: 2023-04-22 22:23
+ **/
+
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+
+class P69 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int numberOfWineshops = scanner.nextInt(); // 给定酒店数
-        int numberOfPickedWineshops = scanner.nextInt(); // k个
-        int referencePrice = scanner.nextInt(); // 心理预期x
+        int numberOfWineshops = scanner.nextInt();
+        int numberOfPickedWineshops = scanner.nextInt();
+        int referencePrice = scanner.nextInt();
 
         int[] WineshopPrices = new int[numberOfWineshops];
         for (int i = 0; i < numberOfWineshops; i++) {
@@ -26,7 +34,7 @@ class P01_Hotel_Reservation {
             priceDifference[i][0] = price;
             priceDifference[i][1] = Math.abs(price - referencePrice);
         }
-        // int[] 直接的排序，按照1位置大小
+
         List<int[]> sortedPriceDifference = Arrays.stream(priceDifference)
                 .sorted(Comparator.comparingInt(Wineshop -> Wineshop[1]))
                 .collect(Collectors.toList());
