@@ -1,0 +1,27 @@
+class Solution {
+    public int longestValidParentheses(String s) {
+        if(s==null || s.length()==0){
+            return 0;
+        }
+        int res = 0;
+        int[] dp = new int[s.length()];
+        for (int i = 1; i < s.length(); i++) {
+            if(s.charAt(i) == ')'){
+                int preLen = dp[i-1];
+                int pre = i - 1 - preLen;
+                if(pre >= 0  && s.charAt(pre) == '('){
+                    dp[i] = dp[i-1] + 2;
+                    // 在找到pre的基础上 还要看看前面是否有可能存在正确字符
+                    if(pre-1 >= 0){
+                        dp[i] += dp[pre-1];
+                    }
+                }
+            }
+            res = Math.max(res, dp[i]);
+        }
+        return res;
+    }
+}
+
+//runtime:1 ms
+//memory:38.5 MB
