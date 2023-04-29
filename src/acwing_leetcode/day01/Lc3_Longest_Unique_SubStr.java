@@ -44,4 +44,22 @@ public class Lc3_Longest_Unique_SubStr {
         }
         return res;
     }
+    //双指针
+    public int getRes(String s) {
+        Set<Character> set = new HashSet<>();
+        char[] chars = s.toCharArray();
+        int n = chars.length;
+        int res = 0, right = 0;
+        for(int left = 0; left < n ; left++){
+            if(left != 0){
+                set.remove(chars[left - 1]);
+            }
+            while(right < n && !set.contains(chars[right])){
+                set.add(chars[right]);
+                right++;
+            }
+            res = Math.max(res, right - left);
+        }
+        return res;
+    }
 }
